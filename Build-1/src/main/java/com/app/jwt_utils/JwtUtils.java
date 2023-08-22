@@ -31,6 +31,7 @@ public class JwtUtils {
 
 	@Value("${EXP_TIMEOUT}")
 	private int jwtExpirationMs;
+	
 	private Key key;
 
 	@PostConstruct
